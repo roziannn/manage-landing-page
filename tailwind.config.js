@@ -9,9 +9,12 @@ module.exports = {
       xl: '1440px'
     },
     extend: {
+      fontFamily:{
+        montserrat: ['Montserrat']
+      },
       colors: {
-        brightRed: 'hsl(12, 88%, 59%)',
-        brightRedLight: 'hsl(12, 88%, 69%)',
+        brightRed: '#1d4ed8',
+        brightRedLight: '#60a5fa',
         brightRedSuperLight: 'hsl(12, 88%, 95%)',
         darkBlue: 'hsl(228, 39%, 23%)',
         darkGrayishBlue: 'hsl(227, 12%, 61%)',
