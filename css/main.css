@@ -653,6 +653,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
 .block {
   display: block;
 }
@@ -957,7 +961,7 @@ video {
 
 .bg-brightRedSuperLight {
   --tw-bg-opacity: 1;
-  background-color: hsl(12 88% 95% / var(--tw-bg-opacity));
+  background-color: rgb(240 249 255 / var(--tw-bg-opacity));
 }
 
 .bg-gray-50 {
@@ -1058,9 +1062,18 @@ video {
   font-family: Montserrat;
 }
 
+.font-sans {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -1142,19 +1155,9 @@ video {
   color: rgb(34 197 94 / var(--tw-text-opacity));
 }
 
-.text-teal-700 {
-  --tw-text-opacity: 1;
-  color: rgb(15 118 110 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-blue-700 {
-  --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1318,6 +1321,10 @@ body {
   color: rgb(37 99 235 / 0.75);
 }
 
+.hover\:text-brightRed\/75:hover {
+  color: rgb(29 78 216 / 0.75);
+}
+
 .hover\:text-darkGrayishBlue:hover {
   --tw-text-opacity: 1;
   color: hsl(227 12% 61% / var(--tw-text-opacity));
@@ -1325,18 +1332,6 @@ body {
 
 .hover\:text-gray-700\/75:hover {
   color: rgb(55 65 81 / 0.75);
-}
-
-.hover\:text-teal-700\/75:hover {
-  color: rgb(15 118 110 / 0.75);
-}
-
-.hover\:text-blue-700\/75:hover {
-  color: rgb(29 78 216 / 0.75);
-}
-
-.hover\:text-brightRed\/75:hover {
-  color: rgb(29 78 216 / 0.75);
 }
 
 .focus\:border-white:focus {
@@ -1572,6 +1567,16 @@ body {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .lg\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .lg\:pt-24 {
