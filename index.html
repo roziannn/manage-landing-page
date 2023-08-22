@@ -55,8 +55,8 @@
       <!-- Flex Container -->
       <div class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:space-y-0 md:flex-row">
         <!-- Left Item -->
-        <div class="flex flex-col mb-32 space-y-6 md:w-1/2">
-          <h1 class="max-w-lg text-4xl font-bold text-center md:text-5xl md:text-left">Experience the difference with our cutting-edge sales software</h1>
+        <div class="flex flex-col space-y-6 md:w-1/2">
+          <h1 class="max-w-lg text-4xl font-bold text-center md:text-5xl md:text-left">Managing your business quickly, anywhere with us</h1>
           <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">Make it easy for sales teams to organize daily tasks and stay focused on the bigger team objectives.</p>
           <div class="flex justify-center space-x-4 md:justify-start">
             <!-- <a href="#" class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">Get Started</a> -->
@@ -76,7 +76,7 @@
       <!-- Flex Container -->
       <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
         <!-- What's Different -->
-        <div class="flex flex-col space-y-12 md:w-1/2">
+        <div class="flex flex-col space-y-6 md:w-1/2">
           <h2 class="max-w-md text-4xl font-bold text-center md:text-left">Our Impressive <span class="text-brightRed">Functionalities</span></h2>
           <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams.</p>
           <a href="#" class="font-semibold text-brightRed">Explore more <i class="fa-solid fa-arrow-right"></i></a>
@@ -128,6 +128,7 @@
         </div>
       </div>
     </section>
+
     <!-- Features Section -->
     <section id="products" class="py-20">
       <!-- Flex Container -->
@@ -316,87 +317,300 @@
       </div>
     </section>
 
-    <!-- CTA Section -->
-    <section id="cta" class="bg-brightRed">
-      <!-- Flex Container -->
-      <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
-        <!-- Heading -->
-        <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left">Simplify how your team works today</h2>
-        <!-- Button -->
-        <div class="my-16">
-          <!-- <a href="#" class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-200">Get Started</a> -->
-          <button class="btn btn-secondary">Get Started</button>
-        </div>
+    <!-- FAQ Start-->
+    <section id="faq" class="py-20">
+      <div class="container items-center mx-auto space-y-4 p-6">
+        <h2 class="text-4xl font-bold text-center mb-12">Frequently asked <span class="text-brightRed">questions</span></h2>
+        <details class="group border-s-4 border-brightRed bg-gray-50 p-4 my-8 [&_summary::-webkit-details-marker]:hidden" open>
+          <summary class="flex cursor-pointer items-center justify-between gap-1.5">
+            <h2 class="text-lg font-medium text-gray-900">How can I get started with SalesWave?</h2>
+
+            <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-45" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </summary>
+
+          <p class="mt-4 leading-relaxed text-gray-700">
+            Getting started with SalesWave is easy. You can visit our website to learn more about the features, request a demo, or contact our sales team to discuss your business needs and explore how SalesWave can benefit your
+            organization.
+          </p>
+        </details>
+
+        <details class="group border-s-4 border-brightRed bg-gray-50 p-4 [&_summary::-webkit-details-marker]:hidden">
+          <summary class="flex cursor-pointer items-center justify-between gap-1.5">
+            <h2 class="text-lg font-medium text-gray-900">Can I generate insights and reports from the software?</h2>
+
+            <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-45" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </summary>
+
+          <p class="mt-4 leading-relaxed text-gray-700">
+            Yes, our software includes advanced reporting and analytics capabilities. You can create customized dashboards, visualize sales data, and generate detailed reports to inform your decisions. SalesWave enabling you to present data
+            in a way that is most meaningful to you and your team. Whether you need to track the performance of specific products, monitor sales growth across regions, or analyze customer buying behavior, equips you with the tools to create
+            tailored reports that highlight the information most pertinent to your business goals.
+          </p>
+        </details>
+
+        <details class="group border-s-4 border-brightRed bg-gray-50 p-4 [&_summary::-webkit-details-marker]:hidden">
+          <summary class="flex cursor-pointer items-center justify-between gap-1.5">
+            <h2 class="text-lg font-medium text-gray-900">How customizable is the software to fit my business needs?</h2>
+
+            <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-45" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </summary>
+
+          <p class="mt-4 leading-relaxed text-gray-700">
+            Our software is designed with flexibility in mind. You can tailor it to align with your unique business processes, ensuring it caters to your specific requirements.We recognize that every organization operates differently, and
+            our software is built to accommodate a wide range of business processes, workflows, and preferences.
+          </p>
+        </details>
+
+        <details class="group border-s-4 border-brightRed bg-gray-50 p-4 [&_summary::-webkit-details-marker]:hidden">
+          <summary class="flex cursor-pointer items-center justify-between gap-1.5">
+            <h2 class="text-lg font-medium text-gray-900">How user-friendly is the software for my team?</h2>
+
+            <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-45" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </summary>
+
+          <p class="mt-4 leading-relaxed text-gray-700">
+            SalesWave boasts an intuitive interface, making it easy for your team to adopt. It minimizes the learning curve, helping your team become productive quickly. With a user-friendly interface and intuitive controls, our software
+            empowers you to configure various aspects to match your specific needs. You can easily adjust settings, fields, and parameters to reflect your business terminology, data structures, and operational nuances. This level of
+            customization extends to everything from lead and contact management to opportunity tracking and order processing.
+          </p>
+        </details>
+
+        <details class="group border-s-4 border-brightRed bg-gray-50 p-4 [&_summary::-webkit-details-marker]:hidden">
+          <summary class="flex cursor-pointer items-center justify-between gap-1.5">
+            <h2 class="text-lg font-medium text-gray-900">Is customer support available for the software?</h2>
+
+            <span class="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 shrink-0 transition duration-300 group-open:-rotate-45" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" />
+              </svg>
+            </span>
+          </summary>
+
+          <p class="mt-4 leading-relaxed text-gray-700">Absolutely, our dedicated customer support team is available to assist with any inquiries or challenges you might face while using SalesWave.</p>
+        </details>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-veryDarkBlue">
-      <!-- Flex Container -->
-      <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-8">
-        <!-- Logo and social links container -->
-        <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
-          <div class="mx-auto my-6 text-center text-white md:hidden">
-            Copyright &copy; 2023. All Rights Reserved <br />
-            Coded by Firda Rosiana
-          </div>
-          <!-- Logo -->
-          <div class="">
-            <a href="#" class="text-2xl text-white"><span class="font-bold">Sales</span>Wave</a>
-          </div>
-          <!-- Social links container  -->
-          <div class="flex justify-center space-x-4">
-            <!-- Link 1 -->
-            <a href="#">
-              <img src="img/icon-facebook.svg" alt="" class="h-8" />
-            </a>
-            <!-- Link 2 -->
-            <a href="#">
-              <img src="img/icon-youtube.svg" alt="" class="h-8" />
-            </a>
-            <!-- Link 3 -->
-            <a href="#">
-              <img src="img/icon-twitter.svg" alt="" class="h-8" />
-            </a>
-            <!-- Link 4 -->
-            <a href="#">
-              <img src="img/icon-pinterest.svg" alt="" class="h-8" />
-            </a>
-            <!-- Link 5 -->
-            <a href="#">
-              <img src="img/icon-instagram.svg" alt="" class="h-8" />
-            </a>
-          </div>
+    <!-- FAQ End -->
+
+    <!-- CTA Section -->
+    <!-- <section id="cta" class="bg-brightRed">
+     
+      <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+  
+        <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left">Simplify how your team works today</h2>
+     
+        <div class="my-16">
+          <button class="btn btn-secondary">Subscribe</button>
         </div>
-        <!-- List Container -->
-        <div class="flex justify-around space-x-32">
-          <div class="flex flex-col space-y-3 text-white">
-            <a href="#" class="hover:text-brightRed">Home</a>
-            <a href="#" class="hover:text-brightRed">Pricing</a>
-            <a href="#" class="hover:text-brightRed">Products</a>
-            <a href="#" class="hover:text-brightRed">About</a>
-          </div>
-          <div class="flex flex-col space-y-3 text-white">
-            <a href="#" class="hover:text-brightRed">Careers</a>
-            <a href="#" class="hover:text-brightRed">Community</a>
-            <a href="#" class="hover:text-brightRed">Privacy Policy</a>
-          </div>
+      </div>
+    </section> -->
+
+    <!-- CTA Section Start-->
+    <section id="cta" class="bg-brightRed">
+      <div class="p-6 md:p-12">
+        <div class="mx-auto max-w-lg text-center">
+          <h2 class="text-4xl font-bold leading-tight text-white">Want to stay updated with the latest offer?</h2>
+
+          <p class="hidden text-white sm:mt-4 sm:block">Subscribe for all the latest updates and releases delivered straight to your inbox!</p>
         </div>
-        <!-- Input Container -->
-        <div class="flex flex-col justify-between">
-          <form>
-            <div class="flex space-x-3">
-              <input type="text" class="flex-1 px-4 rounded-full focus:outline-none" placeholder="Updated in your inbox" />
-              <button class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">Go</button>
+
+        <div class="mx-auto mt-8 max-w-xl">
+          <form action="#" class="sm:flex sm:gap-4">
+            <div class="sm:flex-1">
+              <label for="email" class="sr-only">Email</label>
+
+              <input type="email" placeholder="Email address" class="w-full rounded-md border-gray-200 bg-white p-3 text-gray-700 shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-blue-400" />
             </div>
+
+            <button type="submit" class="btn btn-secondary w-full mt-4 sm:mt-0 sm:w-auto">
+              <span class="text-sm font-medium"> Subscribe</span>
+            </button>
           </form>
-          <div class="hidden text-white md:block">
-            Copyright &copy; 2023. All Rights Reserved <br />
-            Coded by Firda Rosiana
+        </div>
+      </div>
+    </section>
+    <!-- CTA Section End -->
+
+    <!-- Footer -->
+
+    <footer class="bg-white">
+      <div class="mx-auto max-w-screen-xl px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+          <div>
+            <div class="flex justify-center sm:justify-start">
+              <p class="text-2xl"><span class="font-bold">Sales</span>Wave</p>
+            </div>
+
+            <p class="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">SalesWave is a modern sales management software designed to streamline your sales processes and boost growth.</p>
+
+            <ul class="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
+              <li>
+                <a href="/" rel="noreferrer" target="_blank" class="text-brightRed transition hover:text-brightRed/75">
+                  <span class="sr-only">Facebook</span>
+                  <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill-rule="evenodd"
+                      d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="/" rel="noreferrer" target="_blank" class="text-brightRed transition hover:text-brightRed/75">
+                  <span class="sr-only">Instagram</span>
+                  <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </li>
+
+              <li>
+                <a href="/" rel="noreferrer" target="_blank" class="text-brightRed transition hover:text-brightRed/75">
+                  <span class="sr-only">Twitter</span>
+                  <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
+            <div class="text-center sm:text-left">
+              <p class="text-lg font-medium text-gray-900">About Us</p>
+
+              <ul class="mt-8 space-y-4 text-sm">
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Company History </a>
+                </li>
+
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Client Testimonials </a>
+                </li>
+
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Handbook </a>
+                </li>
+
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Careers </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="text-center sm:text-left">
+              <p class="text-lg font-medium text-gray-900">Our Services</p>
+
+              <ul class="mt-8 space-y-4 text-sm">
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Sales management</a>
+                </li>
+
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Performance Analytics </a>
+                </li>
+
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Training & Onboarding </a>
+                </li>
+
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Consultation </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="text-center sm:text-left">
+              <p class="text-lg font-medium text-gray-900">Helpful Links</p>
+
+              <ul class="mt-8 space-y-4 text-sm">
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> FAQs </a>
+                </li>
+
+                <li>
+                  <a class="text-gray-700 transition hover:text-gray-700/75" href="/"> Support </a>
+                </li>
+
+                <li>
+                  <a class="group flex justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end lg:justify-start" href="/">
+                    <span class="text-gray-700 transition group-hover:text-gray-700/75"> Live Chat </span>
+
+                    <span class="relative flex h-2 w-2">
+                      <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-blue-400 opacity-75"></span>
+                      <span class="relative inline-flex h-2 w-2 rounded-full bg-blue-500"></span>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="text-center sm:text-left">
+              <p class="text-lg font-medium text-gray-900">Contact Us</p>
+
+              <ul class="mt-8 space-y-4 text-sm">
+                <li>
+                  <a class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end" href="/">
+                   
+                    <span class="flex-1 text-gray-700">saleswave@info.com</span>
+                  </a>
+                </li>
+
+                <li>
+                  <a class="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end" href="/">
+                    <span class="flex-1 text-gray-700">(021) 1234 876</span>
+                  </a>
+                </li>
+
+                <li class="flex items-start justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end">
+                  <address class="-mt-0.5 flex-1 not-italic text-gray-700">
+                    Kompl Ruko Taman Bougenville Indah AL 9, DKI Jakarta, Indonesia
+                  </address>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-12 border-t border-gray-100 pt-6">
+          <div class="text-center sm:flex sm:justify-between sm:text-left">
+            <p class="text-sm text-gray-500">
+              <span class="block sm:inline"
+                >All rights reserved. Coded by <a href="https://instagram.com/uix.roz" target="_blank" class="inline-block text-brightRed font-bold underline transition hover:text-blue-600/75">Firda Rosiana</a></span
+              >
+            </p>
+
+            <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">&copy; 2023 SalesWave Inc.</p>
           </div>
         </div>
       </div>
     </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
     <script src="js/script.js"></script>
   </body>
